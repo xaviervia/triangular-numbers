@@ -1,0 +1,32 @@
+{
+  "name": "triangular-numbers",
+  "version": "0.0.1",
+  "description": "Get the nth triangular number, or the triangular root of any number",
+  "main": "index.js",
+  "scripts": {
+    "test": "washington test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaviervia/triangular-numbers.git"
+  },
+  "keywords": [
+    "triangular",
+    "triangular numbers",
+    "triangle numbers",
+    "triangle",
+    "numbers",
+    "math",
+    "mathematics"
+  ],
+  "author": "Fernando Via Canel <fernando.via@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xaviervia/triangular-numbers/issues"
+  },
+  "homepage": "https://github.com/xaviervia/triangular-numbers#readme",
+  "devDependencies": {
+    "ramda": "^0.26.1",
+    "washington": "^2.0.0"
+  }
+}
