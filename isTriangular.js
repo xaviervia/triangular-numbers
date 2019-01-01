@@ -1,7 +1,7 @@
 module.exports = function (n) {
   // it has to be a natural number
   if (Math.floor(n) === n && n >= 0) {
-    var maybeNaturalSquareRoot = Math.sqrt(8*n + 1)
+    var maybeNaturalSquareRoot = Math.sqrt( 8 * n + 1 )
 
     // if it’s an integer, then it's triangular
     // (positive is a given,

@@ -1,3 +1,9 @@
 var isTriangular = require('./isTriangular')
-var getTriangularRoot = require('./getTriangularRoot')
-var getNthTriangulerNumber = require('./getNthTriangulerNumber')
+var getTriangularRootIndex = require('./getTriangularRootIndex')
+var getNthTriangularNumber = require('./getNthTriangularNumber')
+
+module.exports = {
+  getTriangularRootIndex: getTriangularRootIndex,
+  getNthTriangularNumber: getNthTriangularNumber,
+  isTriangular: isTriangular,
+}
